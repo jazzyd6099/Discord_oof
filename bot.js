@@ -26,7 +26,7 @@ client.on("message", (message) => {
   if (message.content.startsWith(prefix + "ping")) {
     message.channel.send("Pong!");
     } else
-     if (message.content.startsWith(prefix + "braindead") {
+     if (message.content.startsWith(prefix + "braindead")) {
         message.channel.send("Yay..");
   } else
    if (message.content.startsWith(prefix + "help")) {

@@ -14,7 +14,7 @@ client.on("message", (message) => {
     message.channel.send("Heh, mine's _");
   } else
    if (message.content.startsWith("I love my bot family")) {
-    message.reply("I love you too!");
+    message.channel.send("I love you too!");
   }
 });
 const prefix = "_";

@@ -11,7 +11,7 @@ client.on('ready', () => {
 });
 client.on("message", (message) => {
   if (message.content.startsWith("prefix?")) {
-    message.channel.send("Heh, mine's _");
+    message.channel.send("Heh, mine's '_'");
   } else
    if (message.content.startsWith("I love my bot family")) {
     message.channel.send("I love you too!");
@@ -30,7 +30,7 @@ client.on("message", (message) => {
     message.channel.send("Pong!");
     } else
    if (message.content.startsWith(prefix + "help")) {
-    message.channel.send("ping, braindead, help. Prefix is _");
+    message.channel.send("ping, braindead, help, use your quirk. Prefix is _");
    } else
     if (message.content.startsWith(prefix + "use your quirk")) {
      message.channel.send("Okay fine, just for you! :cloud_lightning: 10,000 volts! :cloud_lightning:");

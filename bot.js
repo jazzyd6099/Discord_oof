@@ -15,6 +15,9 @@ client.on("message", (message) => {
   } else
    if (message.content.startsWith("I love my bot family")) {
     message.channel.send("I love you too!");
+   } else 
+    if (message.content.startsWith("Okay fine,")) {
+     message.channel.send(":thumbsup: Wehehehe :thumbsup:");
   }
 });
 const prefix = "_";
@@ -28,6 +31,9 @@ client.on("message", (message) => {
     } else
    if (message.content.startsWith(prefix + "help")) {
     message.channel.send("ping, braindead, help. Prefix is _");
+   } else
+    if (message.content.startsWith(prefix + "use your quirk")) {
+     message.reply("Okay fine, just for you! :cloud_lightning: 10,000 volts! :cloud_lightning:");
        }
 });
 

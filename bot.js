@@ -33,7 +33,7 @@ client.on("message", (message) => {
     message.channel.send("ping, braindead, help. Prefix is _");
    } else
     if (message.content.startsWith(prefix + "use your quirk")) {
-     message.reply("Okay fine, just for you! :cloud_lightning: 10,000 volts! :cloud_lightning:");
+     message.channel.send("Okay fine, just for you! :cloud_lightning: 10,000 volts! :cloud_lightning:");
        }
 });
 

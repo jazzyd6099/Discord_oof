@@ -9,6 +9,11 @@ client.on('ready', () => {
     console.log('Yay..');
 
 });
+client.on("message", (message) => {
+  if (message.content.startsWith("prefix?")) {
+    message.channel.send("Heh, mine's _");
+  }
+});
 const prefix = "_";
 
 client.on("message", (message) => {

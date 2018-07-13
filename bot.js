@@ -27,9 +27,7 @@ client.on("message", (message) => {
     message.channel.send("Pong!");
     } else
      if (message.content.startsWith(prefix + "braindead") {
-        message.channel.send("Yay..", {
-            files: [
-                "file:///C:/Users/jasmi_apfrwhi/Downloads/tumblr_op65mjujAU1vyd25uo2_400.gif"
+        message.channel.send("Yay..");
   } else
    if (message.content.startsWith(prefix + "help")) {
     message.channel.send("ping, braindead, help. Prefix is _");

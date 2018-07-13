@@ -12,6 +12,9 @@ client.on('ready', () => {
 client.on("message", (message) => {
   if (message.content.startsWith("prefix?")) {
     message.channel.send("Heh, mine's _");
+  } else
+   if (message.content.startsWith("I love my bot family")) {
+    message.reply("I love you too!");
   }
 });
 const prefix = "_";

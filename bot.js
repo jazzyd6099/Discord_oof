@@ -55,7 +55,6 @@ client.on("message", (message) => {
             message.channel.send("Testing! Am I back to normal?");
             setTimeout( () => {
                 message.channel.bulkDelete(2);
-    }
 });
 
 client.login(process.env.BOT_TOKEN);

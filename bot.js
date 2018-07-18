@@ -42,7 +42,6 @@ client.on("message", (message) => {
     attachment: 'file:///C:/Users/jasmi_apfrwhi/Downloads/tumblr_op65mjujAU1vyd25uo2_400.gif',
     name: 'tumblr_op65mjujAU1vyd25uo2_400.gif'
   }]
-       }
 });
 
 client.login(process.env.BOT_TOKEN);

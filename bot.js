@@ -20,8 +20,8 @@ client.on("message", (message) => {
     if (message.content.startsWith("Okay fine,")) {
      message.channel.send(":thumbsup: Wehehehe :thumbsup:");
     } else
-	    if (message.content.startsWith("i love you denki")) {
-		    message.reply("Aw. I love you too!");
+	if (message.content.startsWith("i love you denki")) {
+	  message.reply("Aw. I love you too!");
   }
 });
 const prefix = "_";

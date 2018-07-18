@@ -36,7 +36,7 @@ client.on("message", (message) => {
     if (message.content.startsWith(prefix + "use your quirk")) {
      message.channel.send("Okay fine, just for you! :cloud_lightning: 10,000 volts! :cloud_lightning:");
     } else
-	   if (message.content.startsWith(prefix + "braindead)) {
+	   if (message.content.startsWith(prefix + "brain dead)) {
 	  message.channel.send({
   files: [{
     attachment: 'file:///C:/Users/jasmi_apfrwhi/Downloads/tumblr_op65mjujAU1vyd25uo2_400.gif',

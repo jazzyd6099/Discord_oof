@@ -46,11 +46,11 @@ client.on("message", (message) => {
             message.reply("You just slapped the fuck out of " + slappedUser);
 			} else
 			if (message.content.startsWith(prefix + "copycat")) {
-			 message.member(client.user).setNickname('Bot Creator');
+			 message.channel.send(client.user).setNickname('Bot Creator');
             client.user.setAvatar("6af2d328-15b7-4130-a889-a9a8e10711e4.png");
 				} else
 				if (message.content.startsWith(prefix + "copycat clear")) {
-				message.member(client.user).setNickname('Denki Kaminari');
+				message.channel.send(client.user).setNickname('Denki Kaminari');
             client.user.setAvatar("tumblr_oxkkpsQ8jP1v13047o1_500.jpg");
             message.channel.send("Testing! Am I back to normal?");
 				}

@@ -5,8 +5,9 @@ const client = new Discord.Client();
  
 
 client.on('ready', () => {
-
     console.log('Yay..');
+ 
+ client.user.setStatus("dnd")
 
 });
 client.on("message", (message) => {

@@ -6,8 +6,9 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('Yay..');
-
- client.user.setActivity("Yay..")
+	client.user.setPresence({ game: { name: 'Yay..' }, status: 'invisible' })
+  .then(console.log)
+  .catch(console.error);
 });
 client.on("message", (message) => {
   if (message.content.startsWith("prefix?")) {

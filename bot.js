@@ -38,6 +38,12 @@ client.on("message", (message) => {
    } else
     if (message.content.startsWith(prefix + "use your quirk")) {
      message.channel.send("Okay fine, just for you! :cloud_lightning: 10,000 volts! :cloud_lightning:");
+	    	} else
+			if (message.content.startsWith(prefix + "slap")) {
+				let slappedUser = message.mentions.users.first();
+            
+            if(message.mentions.users.size < 1) return message.reply("You forgot to name a bitch to slap.");
+            message.reply("You just slapped the fuck out of " + slappedUser);
     }
 });
 

@@ -43,7 +43,18 @@ client.on("message", (message) => {
 				let slappedUser = message.mentions.users.first();
             
             if(message.mentions.users.size < 1) return message.reply("You forgot to name a bitch to slap.");
-            message.reply("You just slapped the fuck out of " + huggedUser);
+            message.reply("You just slapped the fuck out of " + slappedUser);
+			} else
+			if (message.content.startsWith(prefix + "copycat")) {
+			 message.member(client.user).setNickname('Bot Creator');
+            client.user.setAvatar("6af2d328-15b7-4130-a889-a9a8e10711e4.png");
+				} else
+				if (message.content.startsWith(prefix + "copycat clear")) {
+				message.member(client.user).setNickname('Denki Kaminari');
+            client.user.setAvatar("tumblr_oxkkpsQ8jP1v13047o1_500.jpg");
+            message.channel.send("Testing! Am I back to normal?");
+            setTimeout( () => {
+                message.channel.bulkDelete(2);
     }
 });
 

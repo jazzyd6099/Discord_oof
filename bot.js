@@ -6,8 +6,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('Yay..');
- 
- client.user.setStatus("invisible")
+
  client.user.setGame("Yay..")
 });
 client.on("message", (message) => {

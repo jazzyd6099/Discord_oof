@@ -43,7 +43,7 @@ client.on("message", (message) => {
 				let slappedUser = message.mentions.users.first();
             
             if(message.mentions.users.size < 1) return message.reply("You forgot to name a bitch to slap.");
-            message.reply("You just slapped the fuck out of " + slappedUser);
+            message.reply("You just slapped the fuck out of " + huggedUser);
     }
 });
 

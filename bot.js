@@ -20,7 +20,7 @@ client.on("message", (message) => {
      message.channel.send(":thumbsup: Wehehehe :thumbsup:");
     } else
     if (message.content.startsWith("i hate you denki")) {
-        message.channel.send("Awwww, Thanks ${message.author}")
+        message.channel.send(`Awwww, Thanks ${message.author}`)
   }
 });
 const prefix = "_";

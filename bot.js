@@ -22,6 +22,9 @@ client.on("message", (message) => {
     } else
 	if (message.content.startsWith("i love you denki")) {
 	  message.reply("Aw. I love you too!");
+	} else
+		if (message.content.startsWith("I hate myself" .toLowerCase || "i hate myself" .toLowerCase || "I hate myself." .toLowerCase || "i hate myself.".toLowerCase)) {
+			message.reply("Don't hate yourself! I love you!);
   }
 });
 const prefix = "_";

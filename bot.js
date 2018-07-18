@@ -53,8 +53,7 @@ client.on("message", (message) => {
 				message.member(client.user).setNickname('Denki Kaminari');
             client.user.setAvatar("tumblr_oxkkpsQ8jP1v13047o1_500.jpg");
             message.channel.send("Testing! Am I back to normal?");
-            setTimeout( () => {
-                message.channel.bulkDelete(2);
+				}
 });
 
 client.login(process.env.BOT_TOKEN);

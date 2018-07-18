@@ -6,7 +6,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('Yay..');
-	client.user.setPresence({ game: { name: 'Yay..' }, status: 'invisible' })
+	client.user.setPresence({ game: { name: 'Yay..' }, status: 'Online' })
   .then(console.log)
   .catch(console.error);
 });
@@ -19,6 +19,9 @@ client.on("message", (message) => {
    } else 
     if (message.content.startsWith("Okay fine,")) {
      message.channel.send(":thumbsup: Wehehehe :thumbsup:");
+    } else
+	    if (message.content.startsWith("i love you denki")) {
+		    message.reply("Aw. I love you too!");
   }
 });
 const prefix = "_";

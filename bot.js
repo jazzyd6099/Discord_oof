@@ -23,7 +23,7 @@ client.on("message", (message) => {
 	if (message.content.startsWith("i love you denki")) {
 	  message.reply("Aw. I love you too!");
 	} else
-		if (message.content.startsWith("i hate myself".toLowerCase() ) || message.content == "I hate myself" ) || message.content == "I hate myself.".toLowerCase()){
+	 if (message.content == "I hate myself".toLowerCase() || message.content == "I hate myself." || message.content == "i hate myself".toLowerCase() || message.content == "i hate myself.".toLowerCase()){
 			message.reply("Don't hate yourself! I love you!");
 			 } else 
 	 if (message.content == "Is there anybody online?".toLowerCase() || message.content == "Is there anybody online?" || message.content == "Is anybody online?".toLowerCase() || message.content == "Is anybody online".toLowerCase()){
